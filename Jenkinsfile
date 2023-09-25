@@ -5,11 +5,6 @@ pipeline   //the task which we are achieving
         maven 'maven'
   	}
     stages {
-        stage('git clone') {
-            steps {
-               	git 'https://github.com/sakit333/sample-maven-project.git'
-            }
-        }
         stage('compile') {
             steps {
                 sh 'mvn compile'
