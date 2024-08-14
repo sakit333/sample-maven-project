@@ -1,5 +1,5 @@
 # Use the official Tomcat base image
-FROM tomcat:10-jre17-temurin
+FROM tomcat:10-jre11-temurin
 
 # Copy the WAR file to the webapps directory of Tomcat
 # Replace 'your-app.war' with the name of your WAR file
