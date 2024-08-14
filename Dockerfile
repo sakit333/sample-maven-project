@@ -3,7 +3,7 @@ FROM tomcat:10-jre17-temurin
 
 # Copy the WAR file to the webapps directory of Tomcat
 # Replace 'your-app.war' with the name of your WAR file
-COPY students.war /usr/local/tomcat/webapps/
+COPY ./target/students.war /usr/local/tomcat/webapps/
 
 # Expose port 8080
 EXPOSE 8080
