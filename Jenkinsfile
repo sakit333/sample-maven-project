@@ -18,7 +18,7 @@ pipeline {
       steps {
         script {
           sh 'docker build -t sakit333/webapp:latest .'
-        # sh 'docker run -it -d -p 8080:8080 sakit333/webapp:latest'
+        //  sh 'docker run -it -d -p 8080:8080 sakit333/webapp:latest'
         }
       }
     }
